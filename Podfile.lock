@@ -1,0 +1,84 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Braintree (3.9.2):
+    - Braintree/API (= 3.9.2)
+    - Braintree/Coinbase (= 3.9.2)
+    - Braintree/Drop-In (= 3.9.2)
+    - Braintree/Payments (= 3.9.2)
+    - Braintree/PayPal (= 3.9.2)
+    - Braintree/UI (= 3.9.2)
+    - Braintree/Venmo (= 3.9.2)
+  - Braintree/API (3.9.2)
+  - Braintree/Coinbase (3.9.2):
+    - Braintree/API
+  - Braintree/Drop-In (3.9.2):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/Payments
+    - Braintree/PayPal
+    - Braintree/UI
+    - Braintree/Venmo
+  - Braintree/Payments (3.9.2):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/PayPal
+    - Braintree/Venmo
+  - Braintree/PayPal (3.9.2):
+    - Braintree/API
+    - Braintree/UI
+  - Braintree/UI (3.9.2):
+    - Braintree/API
+  - Braintree/Venmo (3.9.2):
+    - Braintree/API
+  - CardIO (5.4.1)
+  - Facebook-iOS-SDK (3.24.4):
+    - Bolts (~> 1.2)
+  - HexColors (2.2.1)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - ParseFacebookUtils (1.10.0):
+    - Bolts/Tasks (~> 1.5)
+    - Facebook-iOS-SDK (~> 3.24)
+    - Parse (~> 1.9)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+
+DEPENDENCIES:
+  - Braintree (= 3.9.2)
+  - CardIO
+  - Facebook-iOS-SDK
+  - Parse
+  - ParseFacebookUtils
+  - TSMessages
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - Braintree
+    - CardIO
+    - Facebook-iOS-SDK
+    - HexColors
+    - Parse
+    - ParseFacebookUtils
+    - TSMessages
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Braintree: 7df7050fd35c19a7e81409b15efe0320b980b3d4
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Facebook-iOS-SDK: 5a7c414a084708220b72d5fd016f2cf3eb6deda4
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  ParseFacebookUtils: 5f9b1faf5340241fd84837e4a5ff38dda0129cec
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+
+PODFILE CHECKSUM: 27303417416c020dd4a67afcb380f8fe64cf65a4
+
+COCOAPODS: 1.5.3

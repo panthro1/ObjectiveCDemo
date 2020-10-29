@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A361B2D3-CE2C-4D23-A57F-DC92B359CBF9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>doctorsos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>284d5d8d-7dca-0410-9587-35d6f6b40d03++6822</key>
+		<string>http://wiki.yolema.com:81/svn/ios/trunk/IYLM%25E9%25A1%25B9%25E7%259B%25AE%25E4%25BB%25A3%25E7%25A0%2581/IYLM/IYLM/Public/CustomMapCalloutView</string>
+		<key>EC9B9714F842360CE0B74DF7A97D6213C2F2DC46</key>
+		<string>https://bitbucket.org/David84tong/doctor-sos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>master/doctorsos.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>284d5d8d-7dca-0410-9587-35d6f6b40d03++6822</key>
+		<string>../../master/Views/CustomMapCalloutView/</string>
+		<key>EC9B9714F842360CE0B74DF7A97D6213C2F2DC46</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>284d5d8d-7dca-0410-9587-35d6f6b40d03++6822</key>
+		<string>http://wiki.yolema.com:81/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/David84tong/doctor-sos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EC9B9714F842360CE0B74DF7A97D6213C2F2DC46</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>284d5d8d-7dca-0410-9587-35d6f6b40d03++6822</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomMapCalloutView</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EC9B9714F842360CE0B74DF7A97D6213C2F2DC46</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DoctorSOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

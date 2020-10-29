@@ -1,0 +1,21 @@
+//
+//  API.h
+//  doctor
+//
+//  Created by Thomas.Woodfin on 7/22/15.
+//  Copyright (c) 2015 Thomas. All rights reserved.
+//
+
+#ifndef doctor_API_h
+#define doctor_API_h
+
+#define ROOT_URL @"http://logbook.tbltechnerds.com/braintree"
+#define SUBMERCHANT_SPLITPAYMENT @"/braintree_rest.php"
+#define CREATE_CUSTOMER @"/braintree_rest.php"
+#define PAYMENT_METHOD @"/js_client.php"
+
+//Braintree config
+
+#define CLIENT_TOKEN @"eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI3Y2NkMWM0YTlmZjNkMjI3ODk2NmE5OTQxNmUxMDcwMmQ5YzlkNGM3OTU4NjdhZTJmZjc2ZWI4ZWRkZTE4YWExfGNyZWF0ZWRfYXQ9MjAxNS0xMS0xNlQwMzo0NToxOS4wNzEyMzYyMDgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPWhqNHJjNWtmamd5a3hxZ2dcdTAwMjZwdWJsaWNfa2V5PXN5cDJoNG5rd3o4Ym50eTkiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL2hqNHJjNWtmamd5a3hxZ2cvY2xpZW50X2FwaS92MS9jb25maWd1cmF0aW9uIiwiY2hhbGxlbmdlcyI6W10sImVudmlyb25tZW50IjoicHJvZHVjdGlvbiIsImNsaWVudEFwaVVybCI6Imh0dHBzOi8vYXBpLmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvaGo0cmM1a2ZqZ3lreHFnZy9jbGllbnRfYXBpIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20iLCJhdXRoVXJsIjoiaHR0cHM6Ly9hdXRoLnZlbm1vLmNvbSIsImFuYWx5dGljcyI6eyJ1cmwiOiJodHRwczovL2NsaWVudC1hbmFseXRpY3MuYnJhaW50cmVlZ2F0ZXdheS5jb20ifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6ZmFsc2UsInBheXBhbEVuYWJsZWQiOmZhbHNlLCJjb2luYmFzZUVuYWJsZWQiOmZhbHNlLCJtZXJjaGFudElkIjoiaGo0cmM1a2ZqZ3lreHFnZyIsInZlbm1vIjoib2ZmIn0="
+
+#endif

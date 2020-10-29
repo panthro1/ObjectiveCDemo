@@ -1,0 +1,30 @@
+//
+//  Doctor-Prefix.pch
+//  doctor
+//
+//  Created by Thomas Woodfin on 3/26/15.
+//  Copyright (c) 2015 Thomas. All rights reserved.
+//
+
+#ifndef doctor_Doctor_Prefix_pch
+#define doctor_Doctor_Prefix_pch
+    #import <ParseFacebookUtils/PFFacebookUtils.h>
+    #import <Parse/Parse.h>
+    #import "DSSettingUtils.h"
+    #import "DSRequestDoctor.h"
+    #import "BaseViewController.h"
+    #import "BraintreeModel.h"
+    #import "CustomerInfo.h"
+    #import "API.h"
+    #import "BrainTreeService.h"
+    #import "TSMessage.h"
+    #import "UIImage+FontAwesome.h"
+    #import "SVProgressHUD.h"
+    #import "UIColor + Hex.h"
+    #define IPAD_VERSION UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+    #define CLCOORDINATE_EPSILON 0.00005f
+    #define CLCOORDINATES_EQUAL2( coord1, coord2 ) (fabs(coord1.latitude - coord2.latitude) < CLCOORDINATE_EPSILON && fabs(coord1.longitude - coord2.longitude) < CLCOORDINATE_EPSILON)
+    #define MENU_ICO [UIImage imageWithIcon:@"fa-bars" backgroundColor:[UIColor clearColor] iconColor:[UIColor orangeColor] fontSize:38]
+    #define MARKER_ICO [UIImage imageWithIcon:@"fa-map-marker" backgroundColor:[UIColor clearColor] iconColor:[UIColor orangeColor] fontSize:25]
+
+#endif
